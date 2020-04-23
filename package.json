@@ -1,0 +1,20 @@
+{
+  "name": "particl-bot",
+  "version": "0.0.1",
+  "description": "Mainnet simpleswap exchange bot",
+  "main": "index.js",
+  "author": "Robert Edwards",
+  "license": "GPL-2.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "got": "^9.6.0",
+    "particl-bot-core": "^0.0.7",
+    "rxjs": "^6.5.3"
+  }
+}
